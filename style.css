@@ -1,0 +1,74 @@
+header{
+
+    display: flex;
+    font-size: 30px;
+    margin: 0 auto;
+    padding-left: 700px;
+    color: white;
+    background-color: blueviolet;
+    img{
+        width: 50px;
+        height: 20px;
+        top: 45px;
+        left: 650px;
+        position: absolute;
+    }
+}
+.topo{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+}
+.banner{
+    img{width: 100%;}
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sobre, .table{
+    p{
+        text-align: justify;
+        padding-left: 150px;
+        padding-right: 170px;
+    }
+}
+.sobre{
+    p:first-of-type:last-line{
+        color: blueviolet;
+    }
+}
+table{
+    padding-left: 450px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    thead{
+        text-align: center;
+        color: white;
+        background-color: gray;
+        th{padding-left: 40px;
+        padding-right: 40px;}
+    }
+tbody{
+th{padding-left: 40px;
+padding-right: 40px;
+color: white;}
+text-align: justify;
+    tr:nth-of-type(odd){
+        background-color:blueviolet;
+    }
+    tr:nth-of-type(even){
+        background-color: purple;
+    }
+}
+    }
+
+footer{
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
